@@ -1,26 +1,60 @@
 @import "tailwindcss";
+@source "../node_modules/@tremor/**/*.{js,ts,jsx,tsx}";
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-tremor-brand: #6366f1;
+  --color-indigo-500: #6366f1;
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-900: #0f172a;
+  --font-simbiot: "Simbiot";
+  --font-achiko: "Achiko";
+  --font-doctorglitch: "Doctor_Glitch";
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8f9fb;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #1e293b;
+  --border: #e2e8f0;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #6366f1;
+  --accent-foreground: #ffffff;
+  --radius: 0.75rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0d0f14;
+  --foreground: #e2e8f0;
+  --card: #131720;
+  --card-foreground: #e2e8f0;
+  --border: #1e2433;
+  --muted: #1a2030;
+  --muted-foreground: #64748b;
+  --accent: #6366f1;
+  --accent-foreground: #ffffff;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+@font-face {
+  font-family: "Achiko";
+  src: url("/fonts/Achiko.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Simbiot";
+  src: url("/fonts/Simbiot.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Doctor_Glitch";
+  src: url("/fonts/DoctorGlitch.otf") format("opentype");
 }

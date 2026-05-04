@@ -1,0 +1,16 @@
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Wave 1 - top, thickest, brightest -->
+  <path d="M5,42 C18,42 18,18 31,18 C44,18 44,30 57,26 C70,22 70,8 83,5 C90,3 95,10 100,8" fill="none" stroke="#0D0F14" stroke-width="7" stroke-linecap="round"/>
+  <path d="M5,42 C18,42 18,18 31,18 C44,18 44,30 57,26 C70,22 70,8 83,5 C90,3 95,10 100,8" fill="none" stroke="#0D0F14" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Wave 2 - middle -->
+  <path d="M5,65 C18,65 18,42 31,42 C44,42 44,54 57,50 C70,46 70,30 83,27 C90,25 95,32 100,30" fill="none" stroke="#0D0F14" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M5,65 C18,65 18,42 31,42 C44,42 44,54 57,50 C70,46 70,30 83,27 C90,25 95,32 100,30" fill="none" stroke="#0D0F14" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Wave 3 - bottom, thinnest, darkest -->
+  <path d="M5,82 C18,82 18,65 31,65 C44,65 44,74 57,70 C70,66 70,55 83,52 C90,50 95,56 100,54" fill="none" stroke="#0D0F14" stroke-width="4" stroke-linecap="round"/>
+  <path d="M5,82 C18,82 18,65 31,65 C44,65 44,74 57,70 C70,66 70,55 83,52 C90,50 95,56 100,54" fill="none" stroke="#0D0F14" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
