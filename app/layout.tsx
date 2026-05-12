@@ -33,6 +33,10 @@ export default function RootLayout({
     >
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <meta
+          name="facebook-domain-verification"
+          content="q4r63591xr47gohv6t5zhwydg6ikw8"
+        />
       </head>
       <body
         className="min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)]"
