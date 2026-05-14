@@ -298,7 +298,7 @@ export default function IntegrationContent() {
     await supabase.auth.signInWithOAuth({
       provider: "facebook",
       options: {
-        redirectTo: "http://localhost:3000/dashboard/integrations",
+        redirectTo: `${process.env.NEXT_PUBLIC_APP_URL}/dashboard/integrations`,
         scopes: "ads_read ads_management",
       },
     });
